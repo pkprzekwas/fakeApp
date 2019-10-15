@@ -1,14 +1,16 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
+  <div>
+    <Info></Info>
   </div>
 </template>
 
 <script>
+import Info from "./Info.vue"
+
 export default {
   name: 'Layout',
-  props: {
-    msg: String
+  components: {
+    Info
   }
 }
 </script>

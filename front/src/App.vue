@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Layout msg="Welcome"/>
+    <Layout/>
   </div>
 </template>
 
@@ -29,7 +29,5 @@ export default {
 
   #app {
     font-family: 'Fira Code', sans-serif;
-    text-align: center;
-    margin-top: 60px;
   }
 </style>
